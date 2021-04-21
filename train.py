@@ -22,13 +22,13 @@ from data_loader import valid_sequence, train_sequence
 
 
 
-print('test')
+
 ''' ============================================================================= setting '''
 # keras, tensorflow, cuda
 GPU_ID = 'AUTO' # 'AUTO' 'CPU'
 MIXED_PRECISION = False
 MIXED_PRECISION_DTYPE = 'mixed_float16' # 'float16' 'float32' 'float64' 'mixed_float16'
-aㅇㅇㄴㄹ
+
 # Set Parameters
 BATCH_SIZE = 32
 EPOCHS = 30000
