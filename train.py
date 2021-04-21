@@ -22,7 +22,7 @@ from data_loader import valid_sequence, train_sequence
 
 
 
-d
+print('test')
 ''' ============================================================================= setting '''
 # keras, tensorflow, cuda
 GPU_ID = 'AUTO' # 'AUTO' 'CPU'
