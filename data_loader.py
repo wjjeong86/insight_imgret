@@ -40,7 +40,7 @@ class valid_sequence(keras.utils.Sequence):
         return self.meta['path'].loc[mindex]
     
     def _get_class_number_from_meta_index(self,mindex):
-        return self.meta['class_number'].loc[mindex]
+        return np.int32(self.meta['class_number'].loc[mindex])
         
     def _augmentation(self,image):
         return image

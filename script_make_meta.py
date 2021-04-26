@@ -3,7 +3,7 @@
 
 
 
-디렉토리 구조
+### 디렉토리 구조
 
 /work/data/LPD_competition/train/48/13.jpg
       |    |               |     |  ^filename
@@ -28,6 +28,12 @@ data
 │       ├── 10
 │        ...
 └── LPD_competition.zip
+
+
+
+### train valid 나누기
+클래스 별로 7,3 나누기??
+
 '''
 
 DIR_DATA = '/work/data/LPD_competition'
